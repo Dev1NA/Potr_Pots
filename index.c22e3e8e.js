@@ -1,0 +1,3 @@
+document.addEventListener("DOMContentLoaded",function(){var t=document.querySelectorAll(".materials__input"),e=document.querySelectorAll(".materials__dot"),n=document.querySelectorAll(".materials__slide-text"),o=-1;function l(t){o=t,n.forEach(function(e,n){n===t?e.style.display="block":e.style.display="none"}),e.forEach(function(e,n){n===t?(e.style.backgroundColor="",e.textContent="-"):(e.style.backgroundColor="#eb5757",e.textContent="+")})}t.forEach(function(t,e){t.addEventListener("click",function(){o===e?l(-1):l(e)})})});//# sourceMappingURL=index.c22e3e8e.js.map
+
+//# sourceMappingURL=index.c22e3e8e.js.map
